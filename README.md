@@ -1,7 +1,7 @@
 # water-ripple-simulation
 
 这是一个基于 SDL2 库的 C++ 水面波浪可视化程序。该程序使用了经典的 波动方程 (Wave Equation) 离散模拟算法，能够实时生成逼真的水面涟漪效果，并支持鼠标交互。
-<img width="792" height="848" alt="img_v3_0212o_ef0e2a70-4544-4b22-83e5-02ef5988844g" src="https://github.com/user-attachments/assets/1c373a35-6387-4d07-80ee-3d954ae579e2" />
+<img width="396" height="424" alt="img_v3_0212o_ef0e2a70-4544-4b22-83e5-02ef5988844g" src="https://github.com/user-attachments/assets/1c373a35-6387-4d07-80ee-3d954ae579e2" />
 
 
 ### 核心功能
