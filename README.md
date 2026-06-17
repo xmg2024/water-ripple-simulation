@@ -43,12 +43,16 @@ clang++ -std=c++11 -O3 main.cpp $(pkg-config 
 注意 ：在当前MacBook Air（Apple M3）环境下，由于系统库路径的特殊性，我成功通过以下针对性的命令完成了编译：
 
 ```
+# 编译命令
 clang++ -arch x86_64 -std=c++11 -O3 main.cpp \
 -I/Library/Developer/CommandLineTools/SDKs/MacOSX15.
 2.sdk/usr/include/c++/v1 \
 -isysroot /Library/Developer/CommandLineTools/SDKs/
 MacOSX15.2.sdk \
 $(pkg-config --cflags --libs sdl2) -o water_sim
+
+# 运行程序
+./water_sim
 ```
 ### 操作说明
 - 鼠标点击/拖动 ：在水面制造涟漪。
